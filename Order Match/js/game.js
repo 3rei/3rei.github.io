@@ -32,18 +32,18 @@ let lives = 3;
 const maxLives = 3;
 
 const items = [
-  { name: 'mcspicy', src: 'image/mcspicy.png', x: 400, y: 450, width: 100, height: 100 },
-  { name: 'fries', src: 'image/fries.png', x: 600, y: 450, width: 100, height: 100 },
-  { name: 'drink', src: 'image/drink.png', x: 400, y: 300, width: 100, height: 100 },
-  { name: 'icecream', src: 'image/icecream.png', x: 600, y: 300, width: 100, height: 100 },
+  { name: 'mcspicy', src: '../image/mcspicy.png', x: 400, y: 450, width: 100, height: 100 },
+  { name: 'fries', src: '../image/fries.png', x: 600, y: 450, width: 100, height: 100 },
+  { name: 'drink', src: '../image/drink.png', x: 400, y: 300, width: 100, height: 100 },
+  { name: 'icecream', src: '../image/icecream.png', x: 600, y: 300, width: 100, height: 100 },
 ];
 
 // Image loading
-submitButton.image.src = 'image/buttonup.png';
-backgroundImage.src = 'image/bg.png';
-fullHeartImage.src = 'image/heart.png';
-brokenHeartImage.src = 'image/brokenheart.png'; 
-orderBackgroundImage.src = 'image/orderBG.png';
+submitButton.image.src = '../image/buttonup.png';
+backgroundImage.src = '../image/bg.png';
+fullHeartImage.src = '../image/heart.png';
+brokenHeartImage.src = '../image/brokenheart.png'; 
+orderBackgroundImage.src = '../image/orderBG.png';
 backgroundImage.onload = () => {
   console.log('Background image loaded successfully.');
 };
