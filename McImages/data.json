@@ -1,17 +1,20 @@
 [
     {
-        "Name" : "BigMac",
-        "ImageURL" : "https://3rei.github.io/McImages/bigmacreal.png",
-        "Tier" : "1"
+        "Name": "BigMac",
+        "ImageURL": "https://3rei.github.io/McImages/bigmacreal.png",
+        "Tier": "1",
+        "Message": "You got the big mac at 10% off!"
     },
-        {
-        "Name" : "FrenchFries",
-        "ImageURL" : "https://3rei.github.io/McImages/French Fries_0.png",
-        "Tier" : "2"
+    {
+        "Name": "FrenchFries",
+        "ImageURL": "https://3rei.github.io/McImages/French Fries_0.png",
+        "Tier": "2",
+        "Message": "Fries at 30% Off :D." 
     },
-        {
-        "Name" : "IceCream",
-        "ImageURL" : "https://3rei.github.io/McImages/mcicecream.png",
-        "Tier" : "3"
+    {
+        "Name": "IceCream",
+        "ImageURL": "https://3rei.github.io/McImages/mcicecream.png",
+        "Tier": "3",
+        "Message": "FREE ICE CREAM" 
     }
 ]
