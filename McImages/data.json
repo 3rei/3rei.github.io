@@ -7,11 +7,11 @@
         {
         "Name" : "FrenchFries",
         "ImageURL" : "https://3rei.github.io/McImages/French Fries_0.png",
-        "Tier" : "2"
+        "Tier" : "1"
     },
         {
         "Name" : "IceCream",
         "ImageURL" : "https://3rei.github.io/McImages/mcicecream.png",
-        "Tier" : "3"
+        "Tier" : "1"
     }
 ]
