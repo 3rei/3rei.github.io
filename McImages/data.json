@@ -17,4 +17,22 @@
         "Tier": "3",
         "Message": "FREE ICE CREAM" 
     }
+        {
+        "Name": "BigMac",
+        "ImageURL": "https://3rei.github.io/McImages/bigmacreal.png",
+        "Tier": "1",
+        "Message": "You got the big mac at 40% off!"
+    },
+    {
+        "Name": "FrenchFries",
+        "ImageURL": "https://3rei.github.io/McImages/French Fries_0.png",
+        "Tier": "2",
+        "Message": "Fries at 10% Off :D." 
+    },
+    {
+        "Name": "IceCream",
+        "ImageURL": "https://3rei.github.io/McImages/mcicecream.png",
+        "Tier": "3",
+        "Message": "Ice cream at 50% Off" 
+    }
 ]
