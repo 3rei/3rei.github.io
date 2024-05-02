@@ -1,17 +1,17 @@
 [
     {
         "Name" : "BigMac",
-        "ImageURL" : "http://3rei.github.io/McImages/bigmacreal.png",
+        "ImageURL" : "https://3rei.github.io/McImages/bigmacreal.png",
         "Tier" : "1"
     },
         {
         "Name" : "FrenchFries",
-        "ImageURL" : "http://3rei.github.io/McImages/French Fries_0.png",
+        "ImageURL" : "https://3rei.github.io/McImages/French Fries_0.png",
         "Tier" : "2"
     },
         {
         "Name" : "IceCream",
-        "ImageURL" : "http://3rei.github.io/McImages/mcicecream.png",
+        "ImageURL" : "https://3rei.github.io/McImages/mcicecream.png",
         "Tier" : "3"
     }
 ]
