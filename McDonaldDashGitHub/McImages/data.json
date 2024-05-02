@@ -1,0 +1,17 @@
+[
+    {
+        "Name" : "BigMac",
+        "ImageURL" : "https://drive.google.com/uc?export=download&id=1J5x_Sb58eRaoAP0F1_xVjZE2vO6A1tpR",
+        "Tier" : "1"
+    },
+        {
+        "Name" : "FrenchFries",
+        "ImageURL" : "https://drive.google.com/uc?export=download&id=1XxBrp4ECxi_v69V-TkBncMDF2-7ZsgUz",
+        "Tier" : "2"
+    },
+        {
+        "Name" : "IceCream",
+        "ImageURL" : "https://drive.google.com/uc?export=download&id=1yQt3UcRLslXcrmBp1onv5OPzfGhosQER",
+        "Tier" : "3"
+    }
+]
