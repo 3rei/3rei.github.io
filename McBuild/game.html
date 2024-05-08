@@ -101,27 +101,20 @@
       }
 
       loadingBar.style.display = "block";
-function goFullScreen() {
-        if (canvas.requestFullscreen) {
-          canvas.requestFullscreen();
-        } else if (canvas.mozRequestFullScreen) { /* Firefox */
-          canvas.mozRequestFullScreen();
-        } else if (canvas.webkitRequestFullscreen) { /* Chrome, Safari and Opera */
-          canvas.webkitRequestFullscreen();
-        } else if (canvas.msRequestFullscreen) { /* IE/Edge */
-          canvas.msRequestFullscreen();
-        }
-      }
- var script = document.createElement("script");
+      var script = document.createElement("script");
       script.src = loaderUrl;
       script.onload = () => {
-        createUnityInstance(canvas, config).then((unityInstance) => {
-          goFullScreen();  // Trigger fullscreen as soon as Unity loads
-        }).catch((message) => {
-          alert(message);
-        });
-      };
-      document.body.appendChild(script);
+        createUnityInstance(canvas, config, (progress) => {
+          progressBarFull.style.width = 100 * progress + "%";
+              }).then((unityInstance) => {
+                loadingBar.style.display = "none";
+                fullscreenButton.onclick = () => {
+                  unityInstance.SetFullscreen(1);
+                };
+              }).catch((message) => {
+                alert(message);
+              });
+            };
 
     </script>
   </body>
